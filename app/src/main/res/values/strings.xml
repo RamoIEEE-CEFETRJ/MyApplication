@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="TitleText">Activity Swaping App</string>
+    <string name="BoxText">Type text here</string>
+</resources>
