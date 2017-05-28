@@ -22,7 +22,7 @@
         android:id="@+id/textView" />
 
         <Button
-        android:text="Next"
+        android:text="Confirm Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
@@ -31,18 +31,18 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginBottom="50dp"
 
-        android:id="@+id/button1" />
+        android:id="@+id/button_confirm" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/text_input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="@string/BoxText"
+        android:hint="@string/BoxText"
         android:textAlignment="center"
 
-        app:layout_constraintBottom_toTopOf="@id/button1"
+        app:layout_constraintBottom_toTopOf="@id/button_confirm"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView"
